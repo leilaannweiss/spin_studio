@@ -1,1 +1,5 @@
-<h2>Log in to your account</h2>
+<%= stylesheet_link_tag 'application' %>
+<div id="welcome">
+  <h2>Welcome <%= link_to current_member, members_path(current_member) %>!</h2>
+</div>
+
